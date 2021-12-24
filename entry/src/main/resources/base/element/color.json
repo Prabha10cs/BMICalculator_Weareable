@@ -1,0 +1,76 @@
+{
+  "color": [
+    {
+      "name" : "colorPrimary",
+      "value" : "#E72637"
+    },
+    {
+      "name" : "colorSecondary",
+      "value" : "#17948C"
+    },
+    {
+      "name":"accent",
+      "value":"#17948C"
+    },
+    {
+      "name": "litBlue",
+      "value": "#20BCD2"
+    },
+    {
+      "name": "blue",
+      "value": "#3CADFB"
+    },
+    {
+      "name":"text",
+      "value":"#595959"
+    },
+    {
+      "name":"litYelllow",
+      "value":"#E9BA80"
+    },
+    {
+      "name" : "black",
+      "value" : "#000000"
+    },
+    {
+      "name" : "grey",
+      "value" : "#777777"
+    },
+    {
+      "name":"transparent",
+      "value":"#66000000"
+    },
+    {
+      "name":"red",
+      "value":"#E72637"
+    },
+    {
+      "name": "whiteTransparent",
+      "value": "#00FFFFFF"
+    },
+    {
+      "name": "white",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "schedule_day",
+      "value": "#A8FFFFFF"
+    },
+    {
+      "name": "login_floating_color",
+      "value": "#999999"
+    },
+    {
+      "name": "schedule_list_color",
+      "value": "#26FFFFFF"
+    },
+    {
+      "name": "qr_blue",
+      "value": "#1F71FF"
+    },
+    {
+      "name": "color_bg",
+      "value": "#FF1E9178"
+    }
+  ]
+}

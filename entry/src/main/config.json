@@ -1,0 +1,49 @@
+{
+  "app": {
+    "bundleName": "com.nithra.bmicalculator",
+    "vendor": "hw",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.nithra.bmicalculator",
+    "name": ".MyApplication",
+    "mainAbility": "com.nithra.bmicalculator.MainAbility",
+    "deviceType": [
+      "wearable"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home",
+              "action.bmicalculator.slice",
+              "action.welcome.slice",
+              "action.bmiresult.slice"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.nithra.bmicalculator.MainAbility",
+        "icon": "$media:bmi",
+        "description": "$string:mainability_description",
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "entry_MainAbility"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "title",
+      "value": "BMI Calculator"
+    },
+    {
+      "name": "titleresult",
+      "value": "BMI Result"
+    },
+    {
+      "name": "welcome",
+      "value": "Calculate and evaluate your BMI\nsimply by selecting\nage, gender, height and weight."
+    },
+    {
+      "name": "calculate",
+      "value": "Calculate"
+    },
+    {
+      "name": "recalculate",
+      "value": "Recalculate"
+    },
+    {
+      "name": "age",
+      "value": "Age"
+    },
+    {
+      "name": "gender",
+      "value": "Gender"
+    },
+    {
+      "name": "height",
+      "value": "Height"
+    },
+    {
+      "name": "weight",
+      "value": "Weight"
+    },
+    {
+      "name": "name",
+      "value": "Name"
+    },
+    {
+      "name": "age",
+      "value": "Age"
+    },
+    {
+      "name": "gender",
+      "value": "Gender"
+    },
+    {
+      "name": "incm",
+      "value": "In CM"
+    },
+    {
+      "name": "inkg",
+      "value": "In KG"
+    },
+    {
+      "name": "bmi",
+      "value": "BMI : 20.00 "
+    },
+    {
+      "name": "bmivalue",
+      "value": "20.00"
+    },
+    {
+      "name": "status",
+      "value": "Healthy"
+    },
+    {
+      "name": "statusdetail",
+      "value": "You are heavily overweight, do exercise and comsume healthy food"
+    },
+    {
+      "name": "healthTips",
+      "value": "Health Tips"
+    },
+    {
+      "name": "bmiability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "bmiability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_BMIAbility",
+      "value": "entry_BMIAbility"
+    },
+    {
+      "name": "heightre",
+      "value": "Height : "
+    },
+    {
+      "name": "heightvalue",
+      "value": "167 CM "
+    },
+    {
+      "name": "weightre",
+      "value": " , Weight : "
+    },
+    {
+      "name": "weightvalue",
+      "value": "60 KG "
+    },
+    {
+      "name": "entername",
+      "value": "Enter Value "
+    },
+    {
+      "name": "zero",
+      "value": "0"
+    },
+    {
+      "name": "cm",
+      "value": "CM"
+    },
+    {
+      "name": "kg",
+      "value": "KG"
+    },
+    {
+      "name": "male",
+      "value": "Male"
+    },
+    {
+      "name": "female",
+      "value": "Female"
+    }
+  ]
+}

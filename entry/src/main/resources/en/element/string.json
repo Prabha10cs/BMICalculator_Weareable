@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "BMI Calculator"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_BMIAbility",
+      "value": "entry_BMIAbility"
+    },
+    {
+      "name": "bmiability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "bmiability_HelloWorld",
+      "value": "Hello World"
+    }
+  ]
+}

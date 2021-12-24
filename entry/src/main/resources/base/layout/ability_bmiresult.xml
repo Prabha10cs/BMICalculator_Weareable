@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="$graphic:background_ability_main"
+    ohos:orientation="vertical">
+
+    <DependentLayout
+        ohos:id="$+id:de_title"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:layout_alignment="center"
+        ohos:top_margin="$float:dimens_5"
+        ohos:visibility="visible">
+
+        <Text
+            ohos:id="$+id:title_result"
+            ohos:height="$float:dimens_30"
+            ohos:width="match_parent"
+            ohos:text="$string:titleresult"
+            ohos:text_alignment="center"
+            ohos:text_size="15fp"
+            ohos:text_color="$color:color_bg"
+            ohos:text_weight="1000"/>
+    </DependentLayout>
+
+    <Text
+        ohos:id="$+id:text_name"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:below="$id:de_title"
+        ohos:text_alignment="horizontal_center"
+        ohos:text_color="$color:white"
+        ohos:text_size="14fp"
+        ohos:text_weight="1000"/>
+
+    <DependentLayout
+        ohos:id="$+id:de_subtitle"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:alignment="horizontal_center"
+        ohos:below="$id:text_name"
+        ohos:left_margin="$float:dimens_10"
+        ohos:right_margin="$float:dimens_10">
+
+        <Text
+            ohos:id="$+id:text_height"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:below="$id:text_name"
+            ohos:text="$string:heightre"
+            ohos:text_color="$color:white"
+            ohos:text_size="12fp"
+            ohos:text_weight="600"
+            ohos:top_margin="$float:dimens_5"
+            />
+
+        <Text
+            ohos:id="$+id:text_heightvaluere"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:alpha="0.66"
+            ohos:below="$id:text_name"
+            ohos:right_of="$id:text_height"
+            ohos:text_color="$color:white"
+            ohos:text_size="12fp"
+            ohos:top_margin="$float:dimens_5"
+            />
+
+        <Text
+            ohos:id="$+id:text_weight"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:below="$id:text_name"
+            ohos:right_of="$id:text_heightvaluere"
+            ohos:text="$string:weightre"
+            ohos:text_color="$color:white"
+            ohos:text_size="12fp"
+            ohos:text_weight="600"
+            ohos:top_margin="$float:dimens_5"
+            />
+
+        <Text
+            ohos:id="$+id:text_weightvaluere"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:alpha="0.66"
+            ohos:below="$id:text_name"
+            ohos:right_of="$id:text_weight"
+            ohos:text_color="$color:white"
+            ohos:text_size="12fp"
+            ohos:top_margin="$float:dimens_5"
+            />
+    </DependentLayout>
+
+    <DependentLayout
+        ohos:id="$+id:de_bmi"
+        ohos:height="match_content"
+        ohos:width="$float:dimens_120"
+        ohos:alignment="center"
+        ohos:background_element="$color:white"
+        ohos:below="$id:de_subtitle"
+        ohos:bottom_padding="$float:dimens_5"
+        ohos:horizontal_center="true"
+        ohos:top_margin="$float:dimens_10"
+        ohos:left_padding="$float:dimens_5"
+        ohos:right_padding="$float:dimens_5">
+
+        <Text
+            ohos:id="$+id:text_bmi"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:horizontal_center="true"
+            ohos:text="$string:bmi"
+            ohos:text_alignment="center"
+            ohos:text_color="$color:black"
+            ohos:text_size="$float:dimens_15"
+            ohos:text_weight="1000"
+            ohos:top_margin="$float:dimens_5"/>
+
+        <Text
+            ohos:id="$+id:text_status"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:below="$id:text_bmi"
+            ohos:horizontal_center="true"
+            ohos:text="$string:status"
+            ohos:text_alignment="center"
+            ohos:text_color="$color:black"
+            ohos:text_size="15fp"
+            ohos:text_weight="600"/>
+    </DependentLayout>
+<DependentLayout
+    ohos:height="match_content"
+    ohos:width="match_content"
+    ohos:below="$id:de_bmi"
+    ohos:alignment="center"
+    ohos:horizontal_center="true">
+    <Text
+        ohos:id="$+id:text_healthtip"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:below="$id:de_bmi"
+        ohos:max_text_lines="4"
+        ohos:multiple_lines="true"
+        ohos:text="$string:healthTips"
+        ohos:text_alignment="center"
+        ohos:text_color="$color:red"
+        ohos:text_size="14fp"
+        ohos:text_weight="1000"
+        ohos:top_margin="$float:dimens_8"
+        ohos:visibility="visible"/>
+
+    <Text
+        ohos:id="$+id:text_statusdetails"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:below="$id:text_healthtip"
+        ohos:multiple_lines="true"
+        ohos:max_text_lines="2"
+        ohos:text="$string:statusdetail"
+        ohos:text_alignment="center"
+        ohos:text_color="$color:white"
+        ohos:text_size="10fp"
+        ohos:text_weight="500"
+        ohos:top_margin="$float:dimens_5"
+        ohos:visibility="visible"
+        ohos:left_margin="$float:dimens_15"
+        ohos:right_margin="$float:dimens_15"/>
+</DependentLayout>
+
+</DependentLayout>
